@@ -13,6 +13,7 @@ export class ProductsComponent implements OnInit {
   isItemAddingToCard:Boolean=false; //desides whther to show add cart success  message
   
   ngOnInit(): void {
+    //Loding the List of Products
     this.ProductList=products;
   }
  
