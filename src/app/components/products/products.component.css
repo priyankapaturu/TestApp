@@ -1,0 +1,58 @@
+.btn-outline {
+    color: #fff;
+    border-color: 1px;
+    background-color: green;
+}
+.product-img {
+    height: 225px; 
+    width: 100%; 
+    display: block;
+    padding: 20px;
+}
+.price-Text {
+    color: green ;
+    font-weight: 700;
+    border-color: green ;
+}
+.discount {
+    color: red ;
+    float:right;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.divider {
+    padding-bottom: 5px;
+    margin: 5px  0;
+    border-bottom: 1px  solid #eeeeee;
+}
+.btn-sec {
+    border-radius: 0px 5px 5px 0px ;
+}
+.btn-addtocart{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.modal-addTocard {
+    padding: 10px;
+    
+}
+.btn-outline-secondary{
+    border-color: #ccc;
+}
+.card-text {
+    font-family: serif;
+    color: #6c757d;
+}
+.card{
+    border: 3px solid rgba(0,0,0,.125);
+}
+.modal-product {
+font-family: sans-serif;
+font-size: 19px;
+padding: 10px;
+font-weight: 600;
+}
+.modal-header{
+    border: none;
+}
