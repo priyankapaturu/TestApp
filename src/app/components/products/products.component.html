@@ -27,11 +27,7 @@
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-body">
-        <div class="row">
-          <div class="col-md-12 alert alert-success" role="alert" *ngIf="isItemAddingToCard">
-            Item is Added to cart Successfully...
-          </div>
-        </div>
+      
         <div class="row">
         <div class="col-md-5">
              <img class="card-img-top product-img " data-src="{{Product.image}}" alt="Thumbnail [100%x225]" src={{Product.image}} data-holder-rendered="true">
@@ -51,6 +47,11 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 alert alert-success" role="alert" *ngIf="isItemAddingToCard">
+          Item is Added to cart Successfully...
+        </div>
       </div>
       </div>
     </div>
